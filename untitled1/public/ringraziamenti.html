@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>TRM - Ringraziamenti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Navbar -->
+<div class="navbar">
+    <!-- Logo a sinistra -->
+    <a href="#" class="navbar-logo">
+        <img src="Logo-official.png" alt="Logo">
+    </a>
+
+    <!-- Link di navigazione -->
+    <a href="index.html">Home</a>
+
+    <div class="dropdown" id="teamDropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown()">Robot</button>
+        <div class="dropdown-content">
+            <a href="robot_descriction.html">Descrizione</a>
+            <a href="robot_images.html">Immagini</a>
+        </div>
+    </div>
+
+
+
+
+    <div class="dropdown" id="teamDropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown()">Team</button>
+        <div class="dropdown-content">
+            <a href="balsamo_alessandro.html">Balsamo Alessandro</a>
+            <a href="bortolato_nicola.html">Bortolato Nicola</a>
+            <a href="santoro_alessandro.html">Santoro Alessandro</a>
+            <a href="tonini_riccardo.html">Tonini Riccardo</a>
+        </div>
+    </div>
+    <a href="ringraziamenti.html">Ringraziamenti</a>
+</div>
+
+<!-- Sezione Ringraziamenti -->
+<div class="home">
+    <h1>Non abbiamo fatto tutto da soli</h1>
+    <p>Oltre al nostro fantastico team siamo stati aiutati anche da esterni che teniamo a ringraziare:</p>
+    <p>  - Bozzao Sergio Alessandro, nostro social-media manager e aiutante che ci ha sostenuto fin dal primo istante</p>
+    <p>  - Viviana Cristina Comsa, che ci ha aiutato nella parte grafica</p>
+    <p>  - Diego Chinnelato, che ci ha stampato in 3D il telaio del robot rendendo tutto questo possibile</p>
+
+    <h2>Grazie a tutti voi per aver reso possibile questo progetto</h2>
+
+</div>
+
+<!-- Script per il supporto al click su dispositivi touch -->
+<script>
+    function toggleDropdown() {
+        var dropdown = document.getElementById("teamDropdown");
+        dropdown.classList.toggle("active");
+    }
+</script>
+
+</body>
+</html>
