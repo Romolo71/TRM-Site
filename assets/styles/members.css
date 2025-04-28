@@ -1,0 +1,32 @@
+.member-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.member-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.member-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px; /* Puoi usare icone vere e proprie */
+    color: #333;
+    text-decoration: none;
+}
